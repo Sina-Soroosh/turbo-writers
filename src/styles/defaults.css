@@ -1,4 +1,20 @@
 /* Start Default Styles */
+::-webkit-scrollbar {
+  width: 50px;
+  background-color: #cedbe8;
+}
+
+::-webkit-scrollbar-track {
+  background-color: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #818181;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
 
 html {
   box-sizing: border-box;
@@ -9,7 +25,8 @@ body {
   line-height: 1.6;
   font-size: 1.6rem;
   font-family: var(--font) !important;
-  background-color: var(--gray-back);
+  background-color: var(--gray-back) !important;
+  direction: rtl;
 }
 
 *,

@@ -1,0 +1,244 @@
+#cover-page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-main);
+    opacity: 0.5;
+    display: none;
+    z-index: 2;
+}
+
+.menu-mobile {
+    position: fixed;
+    background: #24262e;
+    top: 0;
+    bottom: 0;
+    right: -100px;
+    min-width: 300px;
+    z-index: 3;
+    overflow: auto;
+    padding: 30px 20px;
+    transition: .3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu-mobile .logo-close {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9b1115;
+    border-radius: 8px;
+}
+
+.menu-mobile .sup-menu {
+    padding: 10px 0;
+}
+
+
+.menu-mobile .sup-menu .content-sup-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-mobile .sup-menu .content-sup-menu .angle-sup-menu {
+    font-size: 15px;
+    color: #a7a7b8;
+}
+
+.menu-mobile .sup-menu .sub-menu {
+    padding: 10px;
+    background: var(--gray-50);
+    margin: 15px 10px;
+    border-radius: 8px;
+    display: none;
+    opacity: 0;
+}
+
+.menu-mobile .sup-menu a {
+    font-size: 15px;
+    color: #a7a7b8;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu-mobile .sup-menu:hover .sub-menu {
+    display: block;
+    opacity: 1;
+}
+
+.header {
+    margin: 20px 0;
+}
+
+.header .top-header {
+    background-color: var(--color-main);
+    border-radius: 8px;
+    padding: 30px 50px;
+}
+
+.header .top-header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .top-header .logo h1 {
+    color: #fff;
+}
+
+.header .top-header .logo .logo-menu {
+    font-size: 18px;
+    color: #a7a7b8;
+    background: var(--gray-50);
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+.header .top-header .search {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: var(--gray-back);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header .top-header .search input {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: var(--gray-back);
+    border: none;
+    color: #a7a7b8;
+}
+
+.header .top-header .search .logo-search {
+    color: #fff;
+    font-size: 18px;
+}
+
+.header .bottom-header {
+    padding: 0 50px;
+}
+
+.header .bottom-header .content-bottom-header {
+    padding: 15px;
+    text-align: center;
+    background-color: var(--gray-50);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.header .bottom-header .menu {
+    justify-content: center;
+}
+
+.header .bottom-header .menu .sup-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.header .bottom-header .menu .sup-menu a {
+    font-size: 15px;
+    color: #a7a7b8;
+    text-decoration: none;
+    position: relative;
+}
+
+.header .bottom-header .sup-menu a::before {
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.header .bottom-header .sup-menu a:hover::before {
+    background-color: #a7a7b8;
+    width: 115%;
+}
+
+.header .bottom-header .sup-menu .angle-sup-menu {
+    color: #a7a7b8;
+    font-size: 11px;
+}
+
+.header .bottom-header .sup-menu .sub-menu {
+    position: absolute;
+    top: 155%;
+    background: var(--color-main);
+    text-align: right;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 0;
+    width: 80%;
+    right: -10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.header .bottom-header .sup-menu:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    top: 135%;
+}
+
+.header .bottom-header .sup-menu .sub-menu li {
+    padding: 5px 10px;
+    display: block;
+}
+
+.header .bottom-header .sup-menu .sub-menu li:hover {
+    background-color: var(--gray-back);
+}
+
+.header .bottom-header .sup-menu .sub-menu li a::before {
+    content: none;
+}
+
+@media screen and (max-width : 991px) {
+    #cover-page {
+        display: block;
+    }
+
+    .menu-mobile.active {
+        visibility: visible;
+        opacity: 1;
+        right: 0;
+    }
+
+    .header .top-header .logo {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header .top-header .logo h1 {
+        text-align: center;
+    }
+
+    .header .top-header .logo .logo-menu {
+        display: flex;
+    }
+
+    .header .bottom-header {
+        display: none;
+    }
+}
