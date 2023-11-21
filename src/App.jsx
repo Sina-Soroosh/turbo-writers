@@ -1,15 +1,15 @@
 import { useState } from "react";
 import Header from "./components/Header/Header";
 import { useRoutes } from "react-router-dom";
-import routes from "./routes";
+import router from "./router";
 
 function App() {
-  const router = useRoutes(routes);
+  const routes = useRoutes(router);
 
   return (
     <>
       <Header />
-      {router}
+      {routes}
     </>
   );
 }
