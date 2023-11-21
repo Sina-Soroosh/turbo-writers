@@ -1,0 +1,33 @@
+/* Start Default Styles */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  font-family: var(--font) !important;
+  background-color: var(--gray-back);
+}
+
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  transition: all 400ms ease;
+}
+
+
+
+i {
+  user-select: none;
+}
+
+/* Finish Default Styles */
