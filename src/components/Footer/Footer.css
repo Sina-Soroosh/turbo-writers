@@ -1,0 +1,72 @@
+.footer {
+    background: var(--color-main);
+    margin-top: 50px;
+    padding: 10px 0;
+}
+
+.footer .top-footer .text-footer h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer .content-footer {
+    margin: 20px 0;
+}
+
+.footer .content-footer .links-footer .top-links-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    padding: 5px 0;
+}
+
+.footer .content-footer .links-footer .top-links-footer::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    background-color: #a7a7b8;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.footer .content-footer .links-footer .icon-links-footer {
+    font-size: 16px;
+    color: #a7a7b8;
+}
+
+.footer .content-footer .links-footer .title-links-footer {
+    font-size: 16px;
+    padding: 5px 0;
+    margin: 5px 0;
+    color: #a7a7b8;
+}
+
+.footer .content-footer .links-footer .links li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.footer .content-footer .links-footer .links a {
+    font-size: 14px;
+    color: #a7a7b8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 0;
+}
+
+.footer .content-footer .links-footer .links a:hover {
+    padding: 5px 10px;
+}
+
+.footer .copy-right-footer p {
+    margin: 0;
+    text-align: center;
+    color: #a7a7b8;
+    font-size: 14px;
+}
