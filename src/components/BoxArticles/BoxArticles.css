@@ -41,3 +41,9 @@
     opacity: 0.3;
     right: -14px;
 }
+
+@media screen and (max-width : 575px) {
+    .content-box-articles .control-box-articles .btn-box-articles .text-btn {
+        display: none;
+    }
+}

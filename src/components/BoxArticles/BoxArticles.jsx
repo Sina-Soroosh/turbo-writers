@@ -32,7 +32,7 @@ function BoxArticles({ children, title, btnText, btnLink }) {
             {btnText ? (
               <div className="button-box-articles">
                 <Link to={btnLink} className="btn-box-articles">
-                  {btnText}
+                  <span className="text-btn">{btnText}</span>
                   <div className="icon-btn">
                     <svg
                       className="more-svg"

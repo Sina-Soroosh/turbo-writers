@@ -35,6 +35,15 @@ function Home() {
         <ArticleBoxIndex />
         <ArticleBoxIndex />
       </BoxArticles>
+
+      <BoxArticles title="مقالات تصادفی :">
+        <ArticleBoxIndex />
+        <ArticleBoxIndex />
+        <ArticleBoxIndex />
+        <ArticleBoxIndex />
+        <ArticleBoxIndex />
+        <ArticleBoxIndex />
+      </BoxArticles>
     </>
   );
 }
