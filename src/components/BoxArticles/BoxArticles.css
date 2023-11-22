@@ -1,0 +1,43 @@
+.content-box-articles {
+    padding: 0 50px;
+}
+
+.content-box-articles .control-box-articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-box-articles .control-box-articles .btn-box-articles {
+    background: var(--color-main);
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 13px;
+    gap: 5px;
+    text-decoration: none;
+    color: #a7a7b8;
+    border-radius: 10px;
+}
+
+.content-box-articles .control-box-articles .btn-box-articles:hover {
+    background-color: #2653b6;
+    color: #fff;
+}
+
+.content-box-articles .control-box-articles .title-box-articles {
+    position: relative;
+    padding: 45px 0;
+}
+
+.content-box-articles .control-box-articles .title-box-articles h4 {
+    color: #a7a7b8;
+}
+
+.content-box-articles .control-box-articles .title-box-articles .svg-box-articles {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.3;
+    right: -14px;
+}
