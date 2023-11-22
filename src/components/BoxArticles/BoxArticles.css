@@ -42,6 +42,12 @@
     right: -14px;
 }
 
+@media screen and (max-width : 991px) {
+    .content-box-articles {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width : 575px) {
     .content-box-articles .control-box-articles .btn-box-articles .text-btn {
         display: none;
