@@ -1,8 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
+import { useDispatch, useSelector } from "react-redux";
+import { getCategories } from "../../redux/store/categories";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
+  const dispatch = useDispatch();
+  const categories = useSelector((state) => state.categories);
+
+  useEffect(() => {
+    dispatch(getCategories());
+  }, []);
 
   const showMenuHandler = () => {
     setShowMenu(true);
@@ -42,21 +50,11 @@ function Header() {
             </div>
 
             <ul className="sub-menu">
-              <li>
-                <a href="">برنامه نویسی</a>
-              </li>
-              <li>
-                <a href="">سایت</a>
-              </li>
-              <li>
-                <a href="">هک و امنیت</a>
-              </li>
-              <li>
-                <a href="">تکنولوژی</a>
-              </li>
-              <li>
-                <a href="">نرم افزار</a>
-              </li>
+              {categories.map((category) => (
+                <li key={category}>
+                  <a href="">{category}</a>
+                </li>
+              ))}
             </ul>
           </li>
           <li className="sup-menu">
@@ -120,21 +118,11 @@ function Header() {
                       <i className="fa-solid fa-angle-down"></i>
                     </div>
                     <ul className="sub-menu">
-                      <li>
-                        <a href="">برنامه نویسی</a>
-                      </li>
-                      <li>
-                        <a href="">سایت</a>
-                      </li>
-                      <li>
-                        <a href="">هک و امنیت</a>
-                      </li>
-                      <li>
-                        <a href="">تکنولوژی</a>
-                      </li>
-                      <li>
-                        <a href="">نرم افزار</a>
-                      </li>
+                      {categories.map((category) => (
+                        <li key={category}>
+                          <a href="">{category}</a>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                   <li className="sup-menu col-2">
