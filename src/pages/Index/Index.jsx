@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Index.css";
 import ArticleBoxIndex from "../../components/ArticleBoxIndex/ArticleBoxIndex";
 import BoxArticles from "../../components/BoxArticles/BoxArticles";
+import { getLastArticles } from "../../redux/store/lastArticles";
+import { useDispatch, useSelector } from "react-redux";
 
 function Home() {
+  const dispatch = useDispatch();
+  const lastArticles = useSelector((state) => state.lastArticles);
+
+  useEffect(() => {
+    dispatch(getLastArticles());
+  }, []);
+
   return (
     <>
       <div className="container">
@@ -11,12 +20,9 @@ function Home() {
           <div className="new-articles">
             <div className="content-new-articles">
               <div className="row">
-                <ArticleBoxIndex />
-                <ArticleBoxIndex />
-                <ArticleBoxIndex />
-                <ArticleBoxIndex />
-                <ArticleBoxIndex />
-                <ArticleBoxIndex />
+                {lastArticles.map((article) => (
+                  <ArticleBoxIndex {...article} key={article.id} />
+                ))}
               </div>
             </div>
           </div>
