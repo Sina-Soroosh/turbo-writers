@@ -8,15 +8,18 @@ import {
   getArticlesByCategory,
   resetStoreArticlesByCategory,
 } from "../../redux/store/articlesByCategory";
+import { getRandomArticles } from "../../redux/store/randomArticles";
 
 function Home() {
   const dispatch = useDispatch();
   const lastArticles = useSelector((state) => state.lastArticles);
   const programArticles = useSelector((state) => state.articlesByCategory);
+  const randomArticles = useSelector((state) => state.randomArticles);
 
   useEffect(() => {
     dispatch(getLastArticles());
     dispatch(getArticlesByCategory("برنامه نویسی"));
+    dispatch(getRandomArticles());
 
     return () => {
       dispatch(resetStoreArticlesByCategory());
@@ -50,12 +53,9 @@ function Home() {
       </BoxArticles>
 
       <BoxArticles title="مقالات تصادفی :">
-        {/* <ArticleBoxIndex />
-        <ArticleBoxIndex />
-        <ArticleBoxIndex />
-        <ArticleBoxIndex />
-        <ArticleBoxIndex />
-        <ArticleBoxIndex /> */}
+        {randomArticles.slice(0, 6).map((article) => (
+          <ArticleBoxIndex {...article} key={article.id} />
+        ))}
       </BoxArticles>
     </>
   );
