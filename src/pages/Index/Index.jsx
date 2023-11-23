@@ -34,21 +34,21 @@ function Home() {
         btnText="مشاهده بیشتر"
         btnLink="/"
       >
+        {/* <ArticleBoxIndex />
         <ArticleBoxIndex />
         <ArticleBoxIndex />
         <ArticleBoxIndex />
         <ArticleBoxIndex />
-        <ArticleBoxIndex />
-        <ArticleBoxIndex />
+        <ArticleBoxIndex /> */}
       </BoxArticles>
 
       <BoxArticles title="مقالات تصادفی :">
+        {/* <ArticleBoxIndex />
         <ArticleBoxIndex />
         <ArticleBoxIndex />
         <ArticleBoxIndex />
         <ArticleBoxIndex />
-        <ArticleBoxIndex />
-        <ArticleBoxIndex />
+        <ArticleBoxIndex /> */}
       </BoxArticles>
     </>
   );
