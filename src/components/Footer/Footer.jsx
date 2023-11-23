@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Footer.css";
+import { getCategories } from "../../redux/store/categories";
+import { useDispatch, useSelector } from "react-redux";
 
 function Footer() {
+  const dispatch = useDispatch();
+  const categories = useSelector((state) => state.categories);
+
+  useEffect(() => {
+    dispatch(getCategories());
+  }, []);
+
   return (
     <footer className="footer">
       <div className="container">
@@ -54,30 +63,14 @@ function Footer() {
                 <p className="title-links-footer"> دسته بندی ها :</p>
               </div>
               <ui className="links">
-                <li>
-                  <a href="">
-                    <i className="fa-solid fa-link"></i>
-                    سایت
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <i className="fa-solid fa-link"></i>
-                    برنامه نویسی
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <i className="fa-solid fa-link"></i>
-                    فناوری
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    <i className="fa-solid fa-link"></i>
-                    کسب و کار
-                  </a>
-                </li>
+                {categories.slice(0, 4).map((category) => (
+                  <li key={category}>
+                    <a href="">
+                      <i className="fa-solid fa-link"></i>
+                      {category}
+                    </a>
+                  </li>
+                ))}
               </ui>
             </div>
             <div className="links-footer col-md-6 col-lg-4">
