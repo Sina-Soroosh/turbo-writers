@@ -10,7 +10,7 @@ import {
 } from "../../redux/store/articlesByCategory";
 import { getRandomArticles } from "../../redux/store/randomArticles";
 
-function Home() {
+function Index() {
   const dispatch = useDispatch();
   const lastArticles = useSelector((state) => state.lastArticles);
   const programArticles = useSelector((state) => state.articlesByCategory);
@@ -19,7 +19,10 @@ function Home() {
   useEffect(() => {
     dispatch(getLastArticles());
     dispatch(getArticlesByCategory("برنامه نویسی"));
-    dispatch(getRandomArticles());
+
+    if (!randomArticles.length) {
+      dispatch(getRandomArticles());
+    }
 
     return () => {
       dispatch(resetStoreArticlesByCategory());
@@ -61,4 +64,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Index;

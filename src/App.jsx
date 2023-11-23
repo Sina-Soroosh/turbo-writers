@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header/Header";
 import { useRoutes } from "react-router-dom";
-import router from "./router";
+import router from "./router.jsx";
 import Footer from "./components/Footer/Footer";
 
 function App() {

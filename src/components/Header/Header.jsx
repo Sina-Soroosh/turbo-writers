@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getCategories } from "../../redux/store/categories";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -30,12 +31,12 @@ function Header() {
         <ul className="menu">
           <li className="sup-menu">
             <div className="content-sup-menu">
-              <a href="">کلیه مقالات</a>
+              <Link to="/articles">کلیه مقالات</Link>
             </div>
           </li>
           <li className="sup-menu">
             <div className="content-sup-menu">
-              <a href="">صفحه اصلی</a>
+              <Link to="/">صفحه اصلی</Link>
             </div>
           </li>
           <li className="sup-menu">
@@ -104,10 +105,10 @@ function Header() {
               <div className="list-link">
                 <ul className="row menu">
                   <li className="sup-menu col-2">
-                    <a href="">کلیه مقالات</a>
+                    <Link to="/articles">کلیه مقالات</Link>
                   </li>
                   <li className="sup-menu col-2">
-                    <a href="">صفحه اصلی</a>
+                    <Link to="/">صفحه اصلی</Link>
                   </li>
                   <li className="sup-menu col-2">
                     <a href="">تماس با ما</a>

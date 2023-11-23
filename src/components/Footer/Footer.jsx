@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./Footer.css";
 import { getCategories } from "../../redux/store/categories";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const dispatch = useDispatch();
@@ -28,18 +29,18 @@ function Footer() {
                 </div>
                 <p className="title-links-footer"> دسترسی سریع :</p>
               </div>
-              <ui className="links">
+              <ul className="links">
                 <li>
-                  <a href="">
+                  <Link to="/">
                     <i className="fa-solid fa-link"></i>
                     صفحه اصلی
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="/articles">
                     <i className="fa-solid fa-link"></i>
                     کلیه مقالات
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="">
@@ -53,7 +54,7 @@ function Footer() {
                     درباره ما
                   </a>
                 </li>
-              </ui>
+              </ul>
             </div>
             <div className="links-footer col-md-6 col-lg-4">
               <div className="top-links-footer">
@@ -62,7 +63,7 @@ function Footer() {
                 </div>
                 <p className="title-links-footer"> دسته بندی ها :</p>
               </div>
-              <ui className="links">
+              <ul className="links">
                 {categories.slice(0, 4).map((category) => (
                   <li key={category}>
                     <a href="">
@@ -71,7 +72,7 @@ function Footer() {
                     </a>
                   </li>
                 ))}
-              </ui>
+              </ul>
             </div>
             <div className="links-footer col-md-6 col-lg-4">
               <div className="top-links-footer">
@@ -80,7 +81,7 @@ function Footer() {
                 </div>
                 <p className="title-links-footer"> تماس با ما:</p>
               </div>
-              <ui className="links">
+              <ul className="links">
                 <li>
                   <a href="tel:+989914317972">
                     <i className="fa-solid fa-phone"></i>
@@ -93,7 +94,7 @@ function Footer() {
                     sinasoroosh07@gmail.com
                   </a>
                 </li>
-              </ui>
+              </ul>
             </div>
           </div>
         </div>
