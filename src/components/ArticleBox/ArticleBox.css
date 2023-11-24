@@ -53,11 +53,11 @@
 .article-box .desc-article-box p {
     padding: 0 10px;
     margin: 10px 0;
-    font-size: 12px;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
     display: -webkit-box;
     overflow: hidden;
     color: #a7a7b8;
+    font-size: 12px;
 }
