@@ -4,6 +4,7 @@ import BoxArticles from "../../components/BoxArticles/BoxArticles";
 import ArticleBox from "../../components/ArticleBox/ArticleBox";
 import { useDispatch, useSelector } from "react-redux";
 import { getArticles } from "../../redux/store/articles";
+import { Pagination } from "@mui/material";
 
 function Articles() {
   const dispatch = useDispatch();
@@ -20,6 +21,14 @@ function Articles() {
         <ArticleBox />
         <ArticleBox />
         <ArticleBox />
+        <div className="pagination">
+          <Pagination
+            count={10}
+            variant="outlined"
+            shape="rounded"
+            size="large"
+          />
+        </div>
       </BoxArticles>
     </div>
   );
