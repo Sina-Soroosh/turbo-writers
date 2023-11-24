@@ -66,10 +66,10 @@ function Footer() {
               <ul className="links">
                 {categories.slice(0, 4).map((category) => (
                   <li key={category}>
-                    <a href="">
+                    <Link to={`/category/${category}`}>
                       <i className="fa-solid fa-link"></i>
                       {category}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

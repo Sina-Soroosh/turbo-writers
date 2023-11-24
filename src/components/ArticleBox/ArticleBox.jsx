@@ -1,6 +1,7 @@
 import React from "react";
 import "./ArticleBox.css";
 import parse from "html-react-parser";
+import { Link } from "react-router-dom";
 
 function ArticleBox(props) {
   return (
@@ -18,9 +19,9 @@ function ArticleBox(props) {
             </a>
           </div>
           <div className="category-article-box">
-            <a href="">
+            <Link to={`/category/${props.category}`}>
               <span className="category">{props.category}</span>
-            </a>
+            </Link>
           </div>
           <div className="desc-article-box">
             <p>{parse(props.desc)}</p>

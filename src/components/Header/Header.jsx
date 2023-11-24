@@ -53,7 +53,7 @@ function Header() {
             <ul className="sub-menu">
               {categories.map((category) => (
                 <li key={category}>
-                  <a href="">{category}</a>
+                  <Link to={`/category/${category}`}>{category}</Link>
                 </li>
               ))}
             </ul>
@@ -114,14 +114,14 @@ function Header() {
                     <Link to="/contact-us">تماس با ما</Link>
                   </li>
                   <li className="sup-menu col-2">
-                    <a href="">دسته بندی ها</a>
+                    <Link href="">دسته بندی ها</Link>
                     <div className="angle-sup-menu">
                       <i className="fa-solid fa-angle-down"></i>
                     </div>
                     <ul className="sub-menu">
                       {categories.map((category) => (
                         <li key={category}>
-                          <a href="">{category}</a>
+                          <Link to={`/category/${category}`}>{category}</Link>
                         </li>
                       ))}
                     </ul>
