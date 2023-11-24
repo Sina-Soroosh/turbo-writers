@@ -13,12 +13,14 @@ import { getRandomArticles } from "../../redux/store/randomArticles";
 function Index() {
   const dispatch = useDispatch();
   const lastArticles = useSelector((state) => state.lastArticles);
-  const programArticles = useSelector((state) => state.articlesByCategory);
+  const { articles: programArticles } = useSelector(
+    (state) => state.articlesByCategory
+  );
   const randomArticles = useSelector((state) => state.randomArticles);
 
   useEffect(() => {
     dispatch(getLastArticles());
-    dispatch(getArticlesByCategory("برنامه نویسی"));
+    dispatch(getArticlesByCategory({ category: "برنامه نویسی" }));
 
     if (!randomArticles.length) {
       dispatch(getRandomArticles());
