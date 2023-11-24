@@ -1,0 +1,23 @@
+.category .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.category .pagination .MuiPagination-root .MuiPaginationItem-root {
+    color: #fff;
+}
+
+.category .pagination .MuiPagination-root li button {
+    color: #fff;
+    background-color: var(--color-main);
+    font-size: 13px;
+}
+
+.category .pagination .MuiPagination-root li button[aria-current="true"] {
+    background-color: #171b20;
+}
+
+.category .pagination .MuiPagination-root li button .MuiSvgIcon-root {
+    transform: rotate(180deg);
+}
