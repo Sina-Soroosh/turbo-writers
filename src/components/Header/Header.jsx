@@ -40,7 +40,7 @@ function Header() {
             </div>
           </li>
           <li className="sup-menu">
-            <a href="">تماس با ما</a>
+            <Link to="/contact-us">تماس با ما</Link>
           </li>
           <li className="sup-menu">
             <div className="content-sup-menu">
@@ -73,7 +73,7 @@ function Header() {
                 <a href="">درباره ما</a>
               </li>
               <li>
-                <a href="">تماس با ما</a>
+                <Link to="/contact-us">تماس با ما</Link>
               </li>
               <li>
                 <a href="">قوانین و مقررات</a>
@@ -111,7 +111,7 @@ function Header() {
                     <Link to="/">صفحه اصلی</Link>
                   </li>
                   <li className="sup-menu col-2">
-                    <a href="">تماس با ما</a>
+                    <Link to="/contact-us">تماس با ما</Link>
                   </li>
                   <li className="sup-menu col-2">
                     <a href="">دسته بندی ها</a>
@@ -139,7 +139,7 @@ function Header() {
                         <a href="">درباره ما</a>
                       </li>
                       <li>
-                        <a href="">تماس با ما</a>
+                        <Link to="/contact-us">تماس با ما</Link>
                       </li>
                       <li>
                         <a href="">قوانین و مقررات</a>

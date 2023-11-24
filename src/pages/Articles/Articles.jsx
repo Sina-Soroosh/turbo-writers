@@ -28,7 +28,6 @@ function Articles() {
         {articles?.map((article) => (
           <ArticleBox key={article.id} {...article} />
         ))}
-        {console.log(page)}
         <div className="pagination">
           <Pagination
             count={count}

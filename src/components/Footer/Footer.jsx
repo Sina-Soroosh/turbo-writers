@@ -43,10 +43,10 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <a href="">
+                  <Link to="/contact-us">
                     <i className="fa-solid fa-link"></i>
                     تماس با ما
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="">
