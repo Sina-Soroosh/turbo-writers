@@ -1,0 +1,71 @@
+.contact-us {
+    margin: 40px 0;
+}
+
+.contact-us .container .row {
+    align-items: center;
+}
+
+.contact-us .title-contact-us h3 {
+    font-size: 30px;
+    color: #a7a7b8;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    padding: 10px 0;
+}
+
+.contact-us .title-contact-us h3::after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 3px;
+    background-color: #a7a7b8;
+    bottom: 0;
+    right: 0;
+}
+
+.contact-us .form-contact-us .input-box {
+    margin: 10px 0;
+}
+
+.contact-us .form-contact-us .input-box input,
+.contact-us .form-contact-us .input-box textarea {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #24262e;
+    color: #a7a7a7;
+    border-radius: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    background: transparent;
+}
+
+.contact-us .form-contact-us .input-box textarea {
+    min-height: 100px;
+}
+
+.contact-us .form-contact-us .input-box label {
+    color: #a7a7a7;
+    font-size: 14px;
+}
+
+.contact-us .form-contact-us .input-box.email-input input {
+    direction: ltr;
+}
+
+.contact-us .form-contact-us .submit-btn {
+    border: 1px solid #24262e;
+    color: #a7a7a7;
+    background-color: var(--color-main);
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.contact-us .image-contact-us img {
+    width: 100%;
+}

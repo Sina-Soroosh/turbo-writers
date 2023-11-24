@@ -6,7 +6,9 @@ const slice = createSlice({
   initialState: [],
   reducers: {
     getRandomArticles: () => {
-      return data.articles.sort(() => Math.random() - 0.25);
+      return [...data.articles].sort(
+        () => Math.random() - Math.random() + Math.random()
+      );
     },
   },
 });
