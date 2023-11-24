@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getCategories } from "../../redux/store/categories";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const dispatch = useDispatch();
   const categories = useSelector((state) => state.categories);
+  const location = useLocation();
 
   useEffect(() => {
     dispatch(getCategories());
@@ -20,6 +21,8 @@ function Header() {
   const hideMenuHandler = () => {
     setShowMenu(false);
   };
+
+  useEffect(hideMenuHandler, [location]);
 
   return (
     <>
