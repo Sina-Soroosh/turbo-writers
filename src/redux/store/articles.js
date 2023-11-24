@@ -3,7 +3,7 @@ import data from "../../data";
 
 const slice = createSlice({
   name: "article",
-  initialState: [],
+  initialState: { articles: [], count: 0 },
   reducers: {
     getArticles: (state, action) => {
       const lastIndex = action.payload.page * action.payload.manyShow;
