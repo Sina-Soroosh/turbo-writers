@@ -3,7 +3,7 @@ import data from "../../data";
 
 const slice = createSlice({
   name: "articleInfo",
-  initialState: { articleInfo: {}, relatedArticles: [] },
+  initialState: { articleInfo: {}, relatedArticles: [], newestArticles: [] },
   reducers: {
     getArticle: (state, action) => {
       const articleInfo = data.articles.find(
@@ -15,9 +15,18 @@ const slice = createSlice({
           article.category === articleInfo.category &&
           article.shortName !== action.payload.shortName
       );
-      return { articleInfo, relatedArticles };
+
+      const newestArticles = data.articles
+        .filter((article) => article.shortName !== action.payload.shortName)
+        .slice(0, 6);
+
+      return { articleInfo, relatedArticles, newestArticles };
     },
-    resetArticle: () => ({ articleInfo: {}, relatedArticles: [] }),
+    resetArticle: () => ({
+      articleInfo: {},
+      relatedArticles: [],
+      newestArticles: [],
+    }),
   },
 });
 

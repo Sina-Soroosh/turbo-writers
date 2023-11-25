@@ -1,0 +1,26 @@
+.item-article-info {
+    display: flex;
+    margin: 10px;
+    background: var(--gray-back);
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item-article-info .icon-item-article-info {
+    background: var(--color-main);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item-article-info p {
+    margin: 0;
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+}
+
+.item-article-info a {
+    text-decoration: none;
+}

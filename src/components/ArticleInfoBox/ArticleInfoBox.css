@@ -1,0 +1,18 @@
+.article-info-box {
+    padding: 20px 14px;
+    position: relative;
+    background-color: var(--color-main);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.article-info-box * {
+    color: #a7a7b8;
+}
+
+.article-info-box .icon {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: #a7a7b8;
+}

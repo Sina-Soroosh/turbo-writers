@@ -1,0 +1,22 @@
+.new-article-box {
+    background-color: var(--gray-back);
+    margin: 10px;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.new-article-box .right-new-article-box {
+    width: 7px;
+    display: inline-block;
+    background: #AAA4A4;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.new-article-box * {
+    font-size: 13px;
+    text-decoration: none;
+}
