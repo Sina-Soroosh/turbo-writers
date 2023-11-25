@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function ArticleBox(props) {
   return (
-    <div className="col-lg-4 col-sm-6 col-12">
+    <div className={props.slider ? "" : "col-lg-4 col-sm-6 col-12"}>
       <div className="article-box">
         <div className="content-article-box">
           <div className="image-article-box">
