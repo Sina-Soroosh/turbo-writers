@@ -3,6 +3,7 @@
     margin: 10px;
     padding: 10px 15px;
     position: relative;
+    border-radius: 5px;
 }
 
 .new-article-box .right-new-article-box {
@@ -19,4 +20,15 @@
 .new-article-box * {
     font-size: 13px;
     text-decoration: none;
+}
+
+.new-article-box span a {
+    text-align: revert;
+    max-height: 31px;
+    width: 90%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
