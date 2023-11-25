@@ -2,6 +2,7 @@ import Index from "./pages/Index/Index";
 import Articles from "./pages/Articles/Articles";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import Category from "./pages/Category/Category";
+import ArticleInfo from "./pages/ArticleInfo/ArticleInfo";
 
 const router = [
   { path: "/", element: <Index /> },
@@ -10,6 +11,7 @@ const router = [
   { path: "/category/:categoryName", element: <Category /> },
   { path: "/category/:categoryName/:page", element: <Category /> },
   { path: "/contact-us", element: <ContactUs /> },
+  { path: "/article-info/:shortNameArticle", element: <ArticleInfo /> },
 ];
 
 export default router;

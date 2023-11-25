@@ -9,14 +9,14 @@ function ArticleBox(props) {
       <div className="article-box">
         <div className="content-article-box">
           <div className="image-article-box">
-            <a href="">
+            <Link to={`/article-info/${props.shortName}`}>
               <img src={props.cover} alt={props.title} />
-            </a>
+            </Link>
           </div>
           <div className="title-article-box">
-            <a href="">
+            <Link to={`/article-info/${props.shortName}`}>
               <h3>{props.title}</h3>
-            </a>
+            </Link>
           </div>
           <div className="category-article-box">
             <Link to={`/category/${props.category}`}>
@@ -27,9 +27,9 @@ function ArticleBox(props) {
             <p>{parse(props.desc)}</p>
           </div>
           <div className="read-article-box">
-            <a href="">
+            <Link to={`/article-info/${props.shortName}`}>
               <span>مطالعه</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
