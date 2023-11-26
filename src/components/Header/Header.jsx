@@ -86,7 +86,7 @@ function Header() {
                 <Link to="/contact-us">تماس با ما</Link>
               </li>
               <li>
-                <a href="">قوانین و مقررات</a>
+                <Link to="/rules">قوانین و مقررات</Link>
               </li>
             </ul>
           </li>
@@ -157,7 +157,7 @@ function Header() {
                         <Link to="/contact-us">تماس با ما</Link>
                       </li>
                       <li>
-                        <a href="">قوانین و مقررات</a>
+                        <Link to="/rules">قوانین و مقررات</Link>
                       </li>
                     </ul>
                   </li>

@@ -5,6 +5,7 @@ import Category from "./pages/Category/Category";
 import ArticleInfo from "./pages/ArticleInfo/ArticleInfo";
 import Search from "./pages/Search/Search";
 import FrequentlyQuestions from "./pages/FrequentlyQuestions/FrequentlyQuestions";
+import Rules from "./pages/Rules/Rules";
 
 const router = [
   { path: "/", element: <Index /> },
@@ -17,6 +18,7 @@ const router = [
   { path: "/search/:keyword", element: <Search /> },
   { path: "/search/:keyword/:page", element: <Search /> },
   { path: "/frequently-questions", element: <FrequentlyQuestions /> },
+  { path: "/rules", element: <Rules /> },
 ];
 
 export default router;
