@@ -4,6 +4,7 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import Category from "./pages/Category/Category";
 import ArticleInfo from "./pages/ArticleInfo/ArticleInfo";
 import Search from "./pages/Search/Search";
+import FrequentlyQuestions from "./pages/FrequentlyQuestions/FrequentlyQuestions";
 
 const router = [
   { path: "/", element: <Index /> },
@@ -15,6 +16,7 @@ const router = [
   { path: "/article-info/:shortNameArticle", element: <ArticleInfo /> },
   { path: "/search/:keyword", element: <Search /> },
   { path: "/search/:keyword/:page", element: <Search /> },
+  { path: "/frequently-questions", element: <FrequentlyQuestions /> },
 ];
 
 export default router;

@@ -77,7 +77,7 @@ function Header() {
             </div>
             <ul className="sub-menu">
               <li>
-                <a href="">سوالات متداول</a>
+                <Link to="/frequently-questions">سوالات متداول</Link>
               </li>
               <li>
                 <a href="">درباره ما</a>
@@ -148,7 +148,7 @@ function Header() {
                     </div>
                     <ul className="sub-menu">
                       <li>
-                        <a href="">سوالات متداول</a>
+                        <Link to="/frequently-questions">سوالات متداول</Link>
                       </li>
                       <li>
                         <a href="">درباره ما</a>
