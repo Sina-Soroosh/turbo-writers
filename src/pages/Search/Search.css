@@ -1,0 +1,23 @@
+.search-articles .pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-articles .pagination .MuiPagination-root .MuiPaginationItem-root {
+    color: #fff;
+}
+
+.search-articles .pagination .MuiPagination-root li button {
+    color: #fff;
+    background-color: var(--color-main);
+    font-size: 13px;
+}
+
+.search-articles .pagination .MuiPagination-root li button[aria-current="true"] {
+    background-color: #171b20;
+}
+
+.search-articles .pagination .MuiPagination-root li button .MuiSvgIcon-root {
+    transform: rotate(180deg);
+}
