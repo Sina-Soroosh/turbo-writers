@@ -80,7 +80,7 @@ function Header() {
                 <Link to="/frequently-questions">سوالات متداول</Link>
               </li>
               <li>
-                <a href="">درباره ما</a>
+                <Link to="/about-us">درباره ما</Link>
               </li>
               <li>
                 <Link to="/contact-us">تماس با ما</Link>
@@ -151,7 +151,7 @@ function Header() {
                         <Link to="/frequently-questions">سوالات متداول</Link>
                       </li>
                       <li>
-                        <a href="">درباره ما</a>
+                        <Link to="/about-us">درباره ما</Link>
                       </li>
                       <li>
                         <Link to="/contact-us">تماس با ما</Link>
