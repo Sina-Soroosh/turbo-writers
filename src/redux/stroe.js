@@ -5,6 +5,7 @@ import randomArticlesReducer from "./store/randomArticles";
 import categoriesReducer from "./store/categories";
 import articlesReducer from "./store/articles";
 import articleInfoReducer from "./store/articleInfo";
+import searchArticlesReducer from "./store/searchArticles";
 
 const store = configureStore({
   reducer: {
@@ -14,6 +15,7 @@ const store = configureStore({
     categories: categoriesReducer,
     articles: articlesReducer,
     articleInfo: articleInfoReducer,
+    searchArticles: searchArticlesReducer,
   },
 });
 
