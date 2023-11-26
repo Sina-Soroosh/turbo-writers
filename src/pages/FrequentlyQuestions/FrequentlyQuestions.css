@@ -1,0 +1,40 @@
+.frequently-questions {
+    margin: 40px;
+}
+
+.frequently-questions .title-frequently-questions h1 {
+    font-weight: 700;
+    color: #a7a7b8;
+}
+
+.frequently-questions .content-frequently-questions {
+    background: var(--color-main);
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.frequently-questions .content-frequently-questions .accordion-item {
+    background: var(--gray-back);
+    border: none;
+    margin: 10px 0;
+}
+
+.frequently-questions .content-frequently-questions .accordion-item .accordion-body * {
+    color: #a7a7b8;
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.frequently-questions .content-frequently-questions .accordion-item .accordion-header button {
+    font-size: 16px;
+    background: var(--gray-back);
+    color: #a7a7b8;
+    box-shadow: 0;
+}
+
+.frequently-questions .content-frequently-questions .accordion-item .accordion-header button::after {
+    position: absolute;
+    left: 15px;
+    color: #a7a7b8;
+}
