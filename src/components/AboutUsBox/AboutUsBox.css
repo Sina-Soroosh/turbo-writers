@@ -1,0 +1,32 @@
+.box-about-us {
+    text-align: center;
+    background: var(--color-main);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.box-about-us .icon-box-about-us {
+    background: var(--gray-back);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 40px;
+    border-radius: 10px;
+    color: #a7a7b8;
+}
+
+.box-about-us .title-box-about-us h4 {
+    font-size: 18px;
+    color: #a7a7b8;
+    margin: 12px 0;
+}
+
+.box-about-us .body-box-about-us p {
+    margin: 0;
+    color: #a7a7b8;
+    font-size: 15px;
+}

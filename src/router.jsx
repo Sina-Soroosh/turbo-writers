@@ -7,6 +7,7 @@ import Search from "./pages/Search/Search";
 import FrequentlyQuestions from "./pages/FrequentlyQuestions/FrequentlyQuestions";
 import Rules from "./pages/Rules/Rules";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import Error404 from "./pages/Error404/Error404";
 
 const router = [
   { path: "/", element: <Index /> },
@@ -21,6 +22,7 @@ const router = [
   { path: "/frequently-questions", element: <FrequentlyQuestions /> },
   { path: "/rules", element: <Rules /> },
   { path: "/about-us", element: <AboutUs /> },
+  { path: "/*", element: <Error404 /> },
 ];
 
 export default router;
