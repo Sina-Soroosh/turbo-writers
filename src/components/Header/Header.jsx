@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Header.css";
 import { useDispatch, useSelector } from "react-redux";
 import { getCategories } from "../../redux/store/categories";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
   const dispatch = useDispatch();
   const categories = useSelector((state) => state.categories);
   const location = useLocation();
+  const searchRef = useRef();
+  const navigate = useNavigate();
 
   useEffect(() => {
     dispatch(getCategories());
@@ -20,6 +22,11 @@ function Header() {
 
   const hideMenuHandler = () => {
     setShowMenu(false);
+  };
+
+  const searchToArticles = () => {
+    navigate(`/search/${searchRef.current.value}`);
+    searchRef.current.value = "";
   };
 
   useEffect(hideMenuHandler, [location]);
@@ -96,10 +103,15 @@ function Header() {
                 </div>
               </div>
               <div className="search col-lg-9 col-12">
-                <div className="logo-search">
+                <div className="logo-search" onClick={searchToArticles}>
                   <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <input type="search" placeholder="دنبال چه مطالبی میگردی؟" />
+                <input
+                  type="search"
+                  placeholder="دنبال چه مطالبی میگردی؟"
+                  ref={searchRef}
+                  onKeyDown={(e) => e.keyCode === 13 && searchToArticles()}
+                />
               </div>
             </div>
           </div>
