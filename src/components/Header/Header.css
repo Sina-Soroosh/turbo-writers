@@ -69,6 +69,7 @@
     color: #a7a7b8;
     text-decoration: none;
     position: relative;
+    display: block;
 }
 
 .menu-mobile .sup-menu:hover .sub-menu {
@@ -158,6 +159,7 @@
     color: #a7a7b8;
     text-decoration: none;
     position: relative;
+    display: block;
 }
 
 .header .bottom-header .sup-menu a::before {
