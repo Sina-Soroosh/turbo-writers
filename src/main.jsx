@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/stroe.js";
+import "./vendor/FontAwesome5/all.min.css";
+import "./vendor/FontAwesome5/all.min.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
