@@ -85,7 +85,7 @@ function ContactUs() {
           </div>
           <div className="col-md-6">
             <div className="image-contact-us">
-              <img src="/public/image/Contact-us-bro-1024x1024.png" alt="" />
+              <img src="/image/Contact-us-bro-1024x1024.png" alt="" />
             </div>
           </div>
         </div>

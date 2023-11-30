@@ -18,7 +18,7 @@ function Error404() {
           </div>
           <div className="col-lg-5">
             <div className="image-err-400">
-              <img src="/public/image/404.png" alt="" />
+              <img src="/image/404.png" alt="" />
             </div>
           </div>
         </div>
