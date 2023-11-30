@@ -1,8 +1,18 @@
-# React + Vite
+# Turbo Writers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Turbo Writers site for publishing articles developed with React and Redux
+>
 
-Currently, two official plugins are available:
+## [Live Demo](https://turbo-writers.iran.liara.run/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built With
+
+- React
+- Redux
+- Redux toolkit
+- React router dom
+- Swiper
+- React bootstrap 
+- Mui
+- Sweetalert2 
+- Vite
