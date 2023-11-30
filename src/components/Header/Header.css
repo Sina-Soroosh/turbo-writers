@@ -198,6 +198,7 @@
     visibility: hidden;
     opacity: 0;
     transition: .3s;
+    z-index: 2;
 }
 
 .header .bottom-header .sup-menu:hover .sub-menu {

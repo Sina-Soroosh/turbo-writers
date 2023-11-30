@@ -50,7 +50,7 @@ function Index() {
       <BoxArticles
         title="مقالات برنامه نویسی :"
         btnText="مشاهده بیشتر"
-        btnLink="/"
+        btnLink="/articles"
       >
         {programArticles.slice(0, 6).map((article) => (
           <ArticleBoxIndex {...article} key={article.id} />

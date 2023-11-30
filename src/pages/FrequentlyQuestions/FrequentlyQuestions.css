@@ -21,9 +21,11 @@
 
 .frequently-questions .content-frequently-questions .accordion-item .accordion-body * {
     color: #a7a7b8;
-    font-size: 13px;
+    font-size: 15px;
     padding: 10px;
     margin-bottom: 5px;
+    line-height: 2.5rem;
+    text-align: justify;
 }
 
 .frequently-questions .content-frequently-questions .accordion-item .accordion-header button {
