@@ -92,6 +92,10 @@
     align-items: center;
 }
 
+.header .top-header .logo a {
+    text-decoration: none;
+}
+
 .header .top-header .logo h1 {
     color: #fff;
 }

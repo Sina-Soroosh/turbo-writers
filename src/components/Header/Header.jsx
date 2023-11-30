@@ -97,7 +97,9 @@ function Header() {
           <div className="top-header">
             <div className="row">
               <div className="logo col-lg-3 col-12">
-                <h1>توربو نویسان</h1>
+                <Link to="/">
+                  <h1>توربو نویسان</h1>
+                </Link>
                 <div className="logo-menu" onClick={showMenuHandler}>
                   <i className="fa-solid fa-bars"></i>
                 </div>
