@@ -9,7 +9,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/sabz-next-1536x864.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-27-1.webp",
       min: 4,
       updateAt: "8 مهر 1402",
       desc: "Next.js یک فناوری شگفت انگیز است که به شما امکان می‌دهد صفحات کاربرپسند سئو و تجربه عملکرد عالی را برای مشتریان ایجاد کنید. در این مقاله، من می‌خواهم شما را با یک سری تصمیماتی که در برخی وبسایت‌ها گرفته شده تا به Next.js سویچ کنند و آنچه Next.js به ثمر می‌آورد، آشنا کنم. (مثالی که در اینجا می‌زنیم صرفا وبسایت codedamn است)... ",
@@ -23,7 +23,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/wjqqD68Wv7Eo73WLBjw2OTqqOiCVjbLMHxPsohLa-1536x737.webp",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-35-1-768x432.webp",
       min: 4,
       updateAt: "18 شهریور 1402",
       desc: "زبان برنامه نویسی PHP نیازی به معرفی ندارد، تقریبا تمام مخاطبان وبسایت راکت با آن آشنایی دارند و می‌دانند که در دنیای توسعه وب چه اهمیت بالایی دارد. اما موضوع اصلی این مقاله خود PHP نیست بلکه فریمورک‌های آن است. PHP به عنوان یک زبان متن باز، رایگان و داینامیک توانسته کاربران بسیار زیادی را به خود جذب کرده و توسعه...                                        ",
@@ -37,7 +37,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/Telegram-app-1.jpg",
+        "https://sabzlearn.ir/wp-content/uploads/2023/11/Course-thumbnail-Telebot-1-768x432.webp",
       min: 8,
       updateAt: "9 شهریور 1402",
       desc: "تلگرام از زمان آغاز به کار خود در سال 2013، محبوبیت زیادی در سراسر جهان به دست آورده است. این برنامه پیامرسان بیش از 1 میلیارد بار در سراسر جهان دانلود شده است و هند، اندونزی و روسیه کشورهایی هستند که بیشترین نصب را دارند. در طول تهاجم روسیه در سال 2022، ولودیمیر زلنسکی، رئیس... ",
@@ -51,7 +51,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/lzQY2tpjIfjsDkQVaQx6AMWEDayAv7eBp2ln1tzE.webp",
+        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/Common-time-management-problems-featured.png",
       min: 4,
       updateAt: "27 مرداد 1402",
       desc: "شما یک دانشجو هستید، فارغ از تمام تعاریف، شما حال یک فرد مستقل هستید که کسی به شما در مدیریت زمان‌تان کمک نمی‌کند. همه چیز را باید خودتان مدیریت کنید، برای امتحانات خودتان باید برنامه‌ریزی داشته باشید، باید به یاد بسپارید که به اندازه کافی بخوابید و در کنار تمام این موارد به زندگی اجتماعی‌تان...                                        ",
@@ -66,7 +66,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/RE-852x479-1.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/Com_react-1-768x432.webp",
       min: 4,
       updateAt: "27 مرداد 1402",
       desc: "این دوره ReactJs که میخوام بهتون معرفی بکنم دوره آموزشی منتورشیپ ReactJS آکادمی سبزلرن هستش. که یه دوره فوق العاده ای که آکادمی سبزلرن پابلیش یا همون منتشر کرده ، مدرس این دوره آقای سعیدی راد هستش ، و مدت زمان دوره حدود 40 ساعت هستش این دوره از مرحله صفر آموزش داده شده تا به مرحله استخدام ،...",
@@ -80,7 +80,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/django-852x479-1.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-20-1-768x432.webp",
       min: 8,
       updateAt: "27 مرداد 1402",
       desc: "اگر به توسعه وب علاقه دارید و می خواهید کار با یک فریمورک قدرتمند و پرکاربرد را یاد بگیرید، جای درستی آمده اید. جنگو یک فریم ورک وب سطح بالا پایتون است که فرآیند ساخت برنامه های وب را ساده می کند. در این دوره آموزشی جامع، از اصول و مفاهیم پایه جنگو تا تکنیک...",
@@ -94,7 +94,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/njs-852x479-1.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-15-1-768x432.webp",
       min: 2,
       updateAt: "23 شهریور 1402",
       desc: "آموزش جامع API نویسی Node JS دوره پیش رو دوره آموزش جامع Node js یا بهتره بگم دوره آموزش جامع Api نویسی Node JS هست که ما تو این دوره یاد میگیریم چطور میتونیم برای هر موبایل اپلیکیشن یا وب اپلیکیشنی api بنویسیم از صفر هم شروع میکنیم اینکه Node JS چی هست Rest API...",
@@ -108,7 +108,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/TypeScript-min-1536x864.jpg",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-23-1-768x432.webp",
       min: 3,
       updateAt: "27 مرداد 1402",
       desc: "تایپ اسکریپت یک زبان برنامه‌نویسی بسیار محبوب در دنیا است که از زبان برنامه‌نویسی جاوا اسکریپت گرفته شده است ولی تفاوتی که با این زبان دارد این است که بسیاری از مشکلات موجود در آن را بهینه‌سازی کرده است و به شما اجازه می‌دهد تا به شکل ساده‌تری کدهای خود را بنویسید. امروزه آموزش‌های مختلفی برای... ",
@@ -122,7 +122,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/array-1536x864.jpg",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/Com_ceh-1-768x432.webp",
       min: 2,
       updateAt: "4 مهر 1402",
       desc: "چرا دوره برنامه نویسی Go؟ این دوره Go (Golang) یک تجربه منحصر به فرد است . بسیاری از دوره های آموزش زبان Go دیگر وجود دارد که می توانید انتخاب کنید ، اما این دوره کاملا متفاوت است. برای هر مفهوم کلیدی زبان Go ، فقط یک ویدیو دریافت نمی کنید بلکه: ده ها چالش تمرینات و... ",
@@ -136,7 +136,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/Boot-852x479-1.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/img-20230818-183742-944-768x432-6586228fa5797_27_11zon.webp",
       min: 1,
       updateAt: "28 مرداد 1402",
       desc: "بوت‌استرپ مجموعه‌ای برای ساخت ظاهری وب سایت‌ها و برنامه‌های وب است. یکی از محبوبترین فریم ورکهای css میباشد که از شیوه گرید بندی برای چیدمان صفحات وب استفاده میکند.بوت‌استرپ شامل تمپلت‌های طراحی اچ‌تی‌ام‌ال و سی‌اس‌اس محور برای typography، فرمها، دکمه‌ها، نمودارها، اجزاء راهبری و دیگر اجزاء رابط کاربری و الحاقات اختیاری (JavaScript Extensions)، می‌باشد. بوت‌استرپ...",
@@ -150,7 +150,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/sabz-redux-1536x864.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-28-1-768x432.webp",
       min: 1,
       updateAt: "28 مرداد 1402",
       desc: "آموزش Redux مقدماتی تا پیشرفته هر چیزی که برای ساختن اپ‌های مدرن با ریداکس نیاز دارید در این دوره می‌باشد. Redux محبوب ترین کتابخانه‌ی مدیریت حالت برای جاوا اسکریپت است. بیشتر با React استفاده می‌شود اما در ، Angular , Ember و Vue هم مشهور است، با اینکه  یک کتابخانه‌ی کوچک و قوی است، بسیاری از توسعه...",
@@ -164,7 +164,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/Burp-852x479-1.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/12/Com_burp_suite-1-768x432.webp",
       min: 5,
       updateAt: "28 مرداد 1402",
       desc: "جامعترین و قویترین دوره آموزش Burp Suite | مبتدی تا پیشرفته | 5 ساعت آموزش Burp Suite حرفه ای | 3 فیلم آموزش رایگان Burp Suite برای تحلیلی کیفیت دوره | با محوریت انجام تست های امنیتی اپلیکیشن واقعی توسط مهندس سروانی تهیه ، تدوین و ضبط شده است. بدون شک دوره آموزش Burp Suite مهندس سروانی یکی از برترین و با کیفیت...",
@@ -178,7 +178,7 @@ const data = {
       author: "سینا سروش فر",
       createAt: "۲۶ مرداد ۱۴۰۲",
       cover:
-        "https://demos.turboweb-wp.ir/topnevisan/wp-content/uploads/2023/08/android-on-javascript-1024x576-1.png",
+        "https://sabzlearn.ir/wp-content/uploads/2023/06/installing-javascript-on-android-1.webp",
       min: 4,
       updateAt: "5 مهر 1402",
       desc: "چطوری باید جاوا اسکریپت رو بر روی اندروید نصب کنیم ؟ همونطور که می‌دونید در دنیای برنامه نویسی همانند دنیای واقعی، با زبان‌های بسیاری روبه‌رو هستیم. یکی از محبوب‌ترین زبان‌های برنامه‌نویسی، زبان برنامه نویسی جاوا اسکریپت است. در این مقاله قصد داریم نحوه نصب جاوا اسکریپت در اندروید رو بررسی کنیم. جاوا اسکریپت چیست؟ زبان...",
